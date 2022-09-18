@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SplashScreen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/istt_logo"
+        >
+
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="150dp"
+        android:progressTint="#122CDC"
+        android:progressBackgroundTint="#777A68"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আমাদের অ্যাপ"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#FF0000"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ডেভেলপারঃ মাহমুদ হাসান রামীম"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+
+        />
+</LinearLayout>
